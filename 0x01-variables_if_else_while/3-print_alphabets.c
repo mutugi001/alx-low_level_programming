@@ -7,8 +7,8 @@
 
 int main(void)
 {
-	sl = "a"
-	cl = "A"
+	char sl = "a";
+	char cl = "A";
 
 	while (sl <= "z")
 		{
