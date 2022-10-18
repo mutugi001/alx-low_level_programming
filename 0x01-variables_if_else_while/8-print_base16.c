@@ -10,7 +10,7 @@ int main(void)
 
 	while (n <= 16)
 	{
-	putchar('0' + n);
+	putchar('16' + n);
 	n++;
 	}
 	return (0);
