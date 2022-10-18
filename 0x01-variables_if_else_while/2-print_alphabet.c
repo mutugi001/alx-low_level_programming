@@ -4,7 +4,7 @@
  * Description:'small alpha letters'
  * Return:Always 0 (success)
  */
-int main(void);
+int main(void)
 {
 	char ch = 'a';
 
