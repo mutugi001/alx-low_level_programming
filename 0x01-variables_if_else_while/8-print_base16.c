@@ -7,11 +7,18 @@
 int main(void)
 {
 	int n = 0;
+	char ch = 'a'
 
-	while (n <= 16)
+	while (n <= 9)
 	{
-	putchar('%x' + n);
+	putchar(n);
 	n++;
 	}
+	while (ch <= 'f')
+	{
+	putchar(ch);
+	ch++;
+	}
+	putchar('\n');
 	return (0);
 }
