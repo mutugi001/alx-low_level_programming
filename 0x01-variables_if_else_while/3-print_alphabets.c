@@ -7,15 +7,15 @@
 
 int main(void)
 {
-	char sl = "a";
-	char cl = "A";
+	char sl = 'a';
+	char cl = 'A';
 
-	while (sl <= "z")
+	while (sl <= 'z')
 		{
 		putchar(sl);
 		sl++;
 		}
-	while (cl <= "Z")
+	while (cl <= 'Z')
 		{
 		putchar(cl);
 		cl++;
