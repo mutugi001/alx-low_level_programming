@@ -14,5 +14,5 @@ void print_alphabet_x10(void)
 
 	t++;
 	_putchar('\n');
-	Return(0);
+	return(0);
 }
