@@ -4,14 +4,13 @@
  */
 void print_alphabet_x10(void)
 {
-	int t = 0;
+	int t;
 	char la;
 
-	while (t < 10)
+	for (t = 0; t <= 9; t++)
 	{
 		for (la = 'a'; la <= 'z'; la++)
 		_putchar(la);
 		_putchar('\n');
 	}
-	t++;
 }
