@@ -15,7 +15,7 @@ void print_triangle(int size)
 		{
 			for (tri = size - h; tri > 0; tri--)
 				_putchar(' ');
-			for (ti = 0; tri < h; tri++)
+			for (tri = 0; tri < h; tri++)
 				_putchar('#');
 
 			if (h == size)
