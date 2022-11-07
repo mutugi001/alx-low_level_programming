@@ -35,6 +35,6 @@ int main(int argc, char *argv[])
 		}
 		i++;
 	}
-	printf("%d\n", numcoins);
+	printf("%i\n", numcoins);
 	return (0);
 }
