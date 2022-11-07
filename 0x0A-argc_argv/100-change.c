@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 		{
 			numcoins = amount / coins[i];
 			change = change + numcoins;
-			amount = amount - change * coins[i];
+			amount = amount - numcoins * coins[i];
 		}
 		i++;
 	}
