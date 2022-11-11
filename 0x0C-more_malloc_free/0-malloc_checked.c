@@ -6,14 +6,14 @@
 /**
  * malloc_checked- allocates memory
  * @b:to be stored
- * Return:void
+ * Return: 0
  */
 
 void *malloc_checked(unsigned int b)
 {
 	int *P;
 
-	*p = malloc(b);
+	p = malloc(b);
 	if (p == NULL)
 	{
 		exit(98);
