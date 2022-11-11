@@ -7,7 +7,7 @@
  * @s1:string 1
  * @s2:string 2
  * @n:bytes of strings
- * Return:Always 0
+ * Return:char pointer
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -30,11 +30,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		size2++;
 	}
 
-	if (n > size2)
+	if (n >= size2)
 	{
 		n = size2;
-		p = malloc((size1 + n + 1) * sizeof(char));
 	}
+	p = malloc((size1 + n + 1) * sizeof(char));
 
 	if (p == NULL)
 		return (0);
