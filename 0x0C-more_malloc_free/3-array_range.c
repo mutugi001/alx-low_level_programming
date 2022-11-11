@@ -24,7 +24,7 @@ int *array_range(int min, int max)
 	if (p == NULL)
 		return (NULL);
 
-	while (i < max - min)
+	while (i <= max - min)
 	{
 		p[i++] = c++;
 	}
