@@ -1,5 +1,5 @@
-#ifndef "DOG_H"
-#define "DOG_H"
+#ifndef DOG_H
+#define DOG_H
 
 #include <stdio.h>
 /**
@@ -14,4 +14,8 @@ struct dog
 	float age;
 	char  *owner;
 };
+/**
+ * dog_t - typefe for struct do
+ */
+typedef struct dog dog_t;
 #endif
