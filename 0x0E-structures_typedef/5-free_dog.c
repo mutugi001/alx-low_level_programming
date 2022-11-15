@@ -1,5 +1,5 @@
-#include "main.h"
-#include <stdio.h>
+#include "dog.h"
+#include <stdlib.h>
 /**
  * free_dog- free dogs memory
  * @d:dogs
