@@ -22,7 +22,7 @@ int _strlen(char *str)
  * @src:source of string
  * Return:dest
  */
-char _strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int index = 0;
 
@@ -67,6 +67,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 
 	dog1.name = _strcpy(dog1.name, name);
+	dog1.age = age;
 	dog1.owner = _strcpy(dog1.owner, owner);
 
 	return (dog1);
