@@ -1,4 +1,4 @@
-#include "calc.h"
+#include "3-calc.h"
 /**
  * get_op_func- gets the correct function
  * @s:operator inputed
