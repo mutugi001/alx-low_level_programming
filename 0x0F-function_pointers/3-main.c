@@ -1,4 +1,4 @@
-#include "3-main.c"
+#include "3-calc.h"
 /**
  * main- perform the operations
  * @argc:arguement count
