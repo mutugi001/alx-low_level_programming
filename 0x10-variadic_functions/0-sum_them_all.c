@@ -1,5 +1,5 @@
 #include "variadic_functions.h"
-#include <stdarg>
+#include <stdarg.h>
 /**
  * sum_them_all- sum of all parameters given
  * @n:amount of arguements
