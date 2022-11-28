@@ -14,9 +14,11 @@ void free_list(list_t *head);
 
 /**
  * struct list_s- singly linked list
- * @str:string- malloced string
- * @len: lenngth of string
- * @next: pointer to next node
+ * @str:string- (malloc'ed string)
+ * @len: length of string
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure for project
  */
 
 typedef struct list_s
@@ -25,3 +27,5 @@ typedef struct list_s
 	unsigned int len;
 	struct list_s *next;
 } list_t;
+
+#endif
