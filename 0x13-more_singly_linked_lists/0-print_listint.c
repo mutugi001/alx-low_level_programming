@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stddef.h>
+#include <sting.h>
 /**
  * print_listint- prints elements of a list
  * @h: pointer to the list
