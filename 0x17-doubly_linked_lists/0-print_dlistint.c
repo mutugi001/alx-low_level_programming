@@ -9,12 +9,13 @@
  */
 size_t print_dlistint(const dlistint_t *h);
 {
-	size_t elements = o;
+	size_t nodes = 0;
 
 	while (h)
 	{
-		elements++;
+		printf("[%d]", h->n);
+		nodes++;
 		h = h->next;
 	}
-	return (elements);
+	return (nodes);
 }
